@@ -543,7 +543,7 @@ TwitchMonitor.onChannelLiveUpdate((streamData) => {
     StreamActivity.setChannelOnline(streamData);
 
     // Generate message
-    const msgFormatted = `${streamData.user_name} went live on Twitch!@everyone`;
+    const msgFormatted = `${streamData.user_name} went live on Twitch!`;
     const msgEmbed = LiveEmbed.createForStream(streamData);
 
     // Broadcast to all target channels
