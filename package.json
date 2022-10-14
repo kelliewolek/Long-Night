@@ -1,0 +1,30 @@
+{
+  "name": "timbot",
+  "version": "1.0.0",
+  "description": "Discord Tim Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.0",
+    "axios": "^1.1.2",
+    "clevertype": "^1.0.16",
+    "discord.js": "^12.2.0",
+    "express": "^4.18.2",
+    "feedparser": "^2.2.10",
+    "fs-extra": "^10.1.0",
+    "humanize-duration": "^3.23.1",
+    "mkdir": "^0.0.2",
+    "moment": "^2.27.0",
+    "node-fetch": "^3.2.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "node": "^16.17.1"
+  },
+  "keywords": []
+}
